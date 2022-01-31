@@ -3,32 +3,42 @@ canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2022-01-31T07:14:51.979Z",
+            "creator": {
+                "id": "martrei",
+                "name": "martrei"
+            },
+            "modified": "2022-01-31T07:15:00.406Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "test",
+            "value": "test"
+        },
+        {
+            "type": "TextualBody",
+            "value": "U+13000",
             "purpose": "commenting",
             "creator": {
                 "id": "martrei",
                 "name": "martrei"
             },
-            "created": "2022-01-31T07:14:51.979Z",
-            "modified": "2022-01-31T07:15:00.406Z"
+            "created": "2022-01-31T09:53:44.329Z"
         }
     ],
+    "id": "93b4eaa5-db09-4cbd-bec6-9c65e5cee3dc.json",
     "target": {
-        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3182.325439453125,1702.9464111328125,575.5732421875,550.5484619140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3182.325439453125,1702.9464111328125,575.5732421875,550.5484619140625"
+        },
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "93b4eaa5-db09-4cbd-bec6-9c65e5cee3dc.json"
+    "type": "Annotation"
 }
